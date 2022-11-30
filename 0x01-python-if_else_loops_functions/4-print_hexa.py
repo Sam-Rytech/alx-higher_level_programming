@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for num in range(0, 99):
-    print("{:d} = 0x{:x}".format(num, num)
+for i in range(ord('a'), ord('z') + 1):
+    if chr(i) != 'e' and chr(i) != 'q':
+        print('{:c}'.format(i), end='')
