@@ -19,4 +19,4 @@ class MagicClass:
 
     def circumference(self):
         """such docstring"""
-        return 2 * math.pi * self._radius
+        return 2 * math.pi * self.__radius
